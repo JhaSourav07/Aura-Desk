@@ -43,13 +43,6 @@ Notes:
 - The app is a frontend prototype. Controls are interactive in the UI but do not communicate with real devices.
 - To integrate with hardware (Bluetooth, MQTT, HTTP APIs, etc.), add the appropriate services and platform plugins and replace the UI mock handlers with real implementations.
 
-## Project Structure (high level)
-
-- lib/ — Flutter app source
-  - screens/ — UI screens (Dashboard, Lamp, Fan, Printer, Alarms)
-  - widgets/ — reusable UI components
-  - models/ — data models (used for UI state only)
-- assets/ — images, icons, fonts
 
 ## Contributing
 
